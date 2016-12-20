@@ -1,0 +1,58 @@
+body {
+      position: relative; 
+  }
+
+.container{
+    width: 100%!important;
+    height: 600px!important;
+    position: relative!important;
+    background-color: antiquewhite!important;
+}
+nav{
+    width: 100%;
+    display: block;
+    position: absolute!important;
+    bottom: 0!important;
+}
+.navbar-header{
+    background-image: none;
+    background-color: pink;
+
+}
+
+.pp{
+    background-color: antiquewhite!important;
+    color: greenyellow;
+    min-height: 1600px;
+    border: 2px solid red;
+    width: 600px;
+}
+  .affix-bottom{
+      position: absolute;
+      
+      width: 100%;
+      z-index: 9999 !important;
+  }
+/*  .affix ~ .container-fluid {
+     position: relative;
+     top: 50px;
+  }*/
+
+/*
+
+<nav>
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button>
+            <a class="navbar-brand" >
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul>
+                <li>
+                <ul>
+                    <li>
+
+            <form class="navbar-form navbar-left">
+*/
+
+
+
