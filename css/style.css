@@ -1,58 +1,34 @@
-body {
-      position: relative; 
-  }
 
-.container{
-    width: 100%!important;
-    height: 600px!important;
-    position: relative!important;
-    background-color: antiquewhite!important;
+header{
+
+    background: url(../images/header-bg.png) center center no-repeat scroll #ded;
+    background-size: cover;
+    color: #fff; 
 }
-nav{
+.title-header{
+    text-transform: uppercase;
+    font-size: 46pt;
+    margin-top: 180px;
+    text-align: center;
+}
+
+.para-header{
+    font-size: 22pt;
+    padding: 0 5%;
+    text-align: center;
+}
+
+.about{
+    background-color: #f4f4f4;
+}
+.about-monitor{
     width: 100%;
+    
+}
+
+.para{
     display: block;
-    position: absolute!important;
-    bottom: 0!important;
+    text-align: justify;
+    font-size: 15pt;  
+    margin-top: 10%;
 }
-.navbar-header{
-    background-image: none;
-    background-color: pink;
-
-}
-
-.pp{
-    background-color: antiquewhite!important;
-    color: greenyellow;
-    min-height: 1600px;
-    border: 2px solid red;
-    width: 600px;
-}
-  .affix-bottom{
-      position: absolute;
-      
-      width: 100%;
-      z-index: 9999 !important;
-  }
-/*  .affix ~ .container-fluid {
-     position: relative;
-     top: 50px;
-  }*/
-
-/*
-
-<nav>
-    <div class="container-fluid">
-        <div class="navbar-header">
-            <button>
-            <a class="navbar-brand" >
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul>
-                <li>
-                <ul>
-                    <li>
-
-            <form class="navbar-form navbar-left">
-*/
-
-
-

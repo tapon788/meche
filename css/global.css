@@ -1,0 +1,78 @@
+@font-face{
+    src:url(../fonts/Lato/Lato-Black.ttf);
+    font-family:lato-black;
+}
+@font-face{
+    src:url(../fonts/Lato/Lato-Bold.ttf);
+    font-family:lato-bold;
+}
+@font-face{
+    src:url(../fonts/Lato/Lato-Light.ttf);
+    font-family:lato-light;
+}
+@font-face{
+    src:url(../fonts/Lato/Lato-LightItalic.ttf);
+    font-family:lato-light-italic;
+}
+@font-face{
+    src:url(../fonts/Lato/Lato-Regular.ttf);
+    font-family:lato-regular;
+}
+
+html,
+body {
+    height: 100%;
+    font-family: lato-light;
+    color: #5a5a5a;
+}
+.full-screen {
+    min-height: 100%;
+    height: 100%; /*for mozilla*/
+}
+html>body .full-screen {
+    height: auto;
+
+}
+.row.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+}
+.row.no-gutters > [class^="col-"],
+.row.no-gutters > [class*=" col-"] {
+  padding-right: 0;
+  padding-left: 0;
+}
+.container{
+    width: 90%;
+    margin: 0;
+    padding: 0;
+    margin: 0 auto;
+    
+}
+
+
+.underline{
+    display: block;
+    background-color:#ed145b;
+    height: 2px;
+    width: 25%;
+    margin: 15px auto;
+}
+.meche-button{
+    margin-top: 70px;
+    background-color:#ed145b;
+    border-color: transparent;
+    width: 200px;
+    font-family: lato-bold;
+    font-size: 15pt;
+    color: #fff;
+    text-transform: uppercase;
+    line-height: inherit;
+    border-radius: 25px;
+}
+.section-title{
+
+    font-size: 38pt;
+    font-family: lato-light-italic;
+}
+
