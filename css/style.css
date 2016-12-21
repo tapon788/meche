@@ -7,28 +7,49 @@ header{
 }
 .title-header{
     text-transform: uppercase;
-    font-size: 46pt;
+   
     margin-top: 180px;
     text-align: center;
 }
 
 .para-header{
-    font-size: 22pt;
+    
     padding: 0 5%;
     text-align: center;
 }
 
 .about{
     background-color: #f4f4f4;
+    padding-top: 50px;
+}
+.about .section-title:after{
+    width: 30%;
+    margin: 10px 0;
 }
 .about-monitor{
     width: 100%;
     
 }
 
-.para{
-    display: block;
-    text-align: justify;
-    font-size: 15pt;  
-    margin-top: 10%;
+.services .para{
+    padding: 0 20%;
+    text-align: center;
 }
+.icon-about{
+    
+}
+.title-icon{
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-family: lato-regular;
+  
+}
+.prices{
+    
+}
+.prices-btn{
+    margin-top: -30px;
+
+}
+
+
