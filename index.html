@@ -2,139 +2,152 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <title>Test</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mache Template</title>
     <link rel="stylesheet" href="css/bootstrap-theme.min.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/global.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="owl-carousel/owl.carousel.css">
+    <link rel="stylesheet" href="owl-carousel/owl.theme.css">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
     <script src="js/jquery_3.1.1.js"></script>
     <script src="js/bootstrap.min.js"></script>
 
+    <script src="owl-carousel/owl.carousel.js"></script>
+    <script src="js/triangle_adjust.js"></script>
 </head>
 
-<body>
+<body onresize="triangleAdjust()" , onload="triangleAdjust()">
 
-
-    <header class="full-screen">
+    <!--HEADER-STARTS-->
+    <header id="home" class="full-screen">
+        <!--HEADER-CONTAINER-->
         <div class="container">
-            <!--NAVBAR-->
-
-            <nav class="navbar navbar-default">
+            <!--NAVBAR-STARTS-->
+            <nav class="navbar navbar-default affix-top" data-spy="affix" data-offset-top="50">
+               
                 <div class="container-fluid">
-                    <!-- Brand and toggle get grouped for better mobile display -->
+                   
                     <div class="navbar-header">
+                       
                         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
                             <span class="sr-only">Toggle navigation</span>
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <a class="navbar-brand" href="#">Brand</a>
+                        <a class="navbar-brand" href="#"><span class="theme-color">///</span> Mache</a>
                     </div>
 
-                    <!-- Collect the nav links, forms, and other content for toggling -->
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                        <ul class="nav navbar-nav">
-                            <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
-                            <li><a href="#">Link</a></li>
-                            <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-                                <ul class="dropdown-menu">
-                                    <li><a href="#">Action</a></li>
-                                    <li><a href="#">Another action</a></li>
-                                    <li><a href="#">Something else here</a></li>
-                                    <li role="separator" class="divider"></li>
-                                    <li><a href="#">Separated link</a></li>
-                                    <li role="separator" class="divider"></li>
-                                    <li><a href="#">One more separated link</a></li>
-                                </ul>
-                            </li>
-                        </ul>
-                        <form class="navbar-form navbar-left">
-                            <div class="form-group">
-                                <input type="text" class="form-control" placeholder="Search">
-                            </div>
-                            <button type="submit" class="btn btn-default">Submit</button>
-                        </form>
                         <ul class="nav navbar-nav navbar-right">
-                            <li><a href="#">Link</a></li>
-                            <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-                                <ul class="dropdown-menu">
-                                    <li><a href="#">Action</a></li>
-                                    <li><a href="#">Another action</a></li>
-                                    <li><a href="#">Something else here</a></li>
-                                    <li role="separator" class="divider"></li>
-                                    <li><a href="#">Separated link</a></li>
-                                </ul>
-                            </li>
+                            <li class="sliding-u-l-r-l"><a id="display" href="#home">home</a></li>
+                            <li class="sliding-u-l-r-l"><a href="#about">about us</a></li>
+                            <li class="sliding-u-l-r-l"><a href="#service">our services</a></li>
+                            <li class="sliding-u-l-r-l"><a href="#price">prices</a></li>
+                            <li class="sliding-u-l-r-l"><a href="#contact">contact</a></li>
                         </ul>
                     </div>
-                    <!-- /.navbar-collapse -->
+
                 </div>
-                <!-- /.container-fluid -->
+
             </nav>
-
-
-
-
             <!--NAVBAR-ENDS-->
 
-            <h1 class="title-header">Mache FREE psd Template</h1>
-            <div class="underline"></div>
-            <p class="para-header">Elegant and clean PSD template, which you can download and use for free!
+            <h1 class="title-header text-center text-uppercase"><span class="text-bold">Mache</span> FREE psd Template</h1>
+
+            <p class="para">Elegant and clean PSD template, which you can download and use for free!
                 <br> You can easily modify the design to make it your own and help you get your project running faster.</p>
-            <button class="btn btn-default meche-button center-block">show more</button>
+                
+            <button class="btn btn-default mache-button center-block text-uppercase">show more</button>
+            
         </div>
+        <!--HEADER-CONTAINER-ENDS-->
+        
+        <div class="triangle-down"></div>
+    
     </header>
-    <section class="about full-screen">
+    <!--HEADER-ENDS-->
+    <!--ABOUT-STARTS-->
+    <section id="about" class="about">
         <div class="container">
             <div class="row no-gutters">
-                <div class="col-md-5">
+                <div class="col-md-4 col-sm-6 ">
                     <h1 class="section-title text-left">Powerfull PSD template
 available  for free!</h1>
-                    <!--<div class="underline pull-left"></div>-->
-                    <p class="para">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+
+                    <p class="para text-left">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
                     </p>
-                    <a href="#">see the video</a>
+
+                    <span class="mache-title text-uppercase theme-color" href="#">see the video</span>
+                    <a href="#"><i class="fa fa-play-circle-o"></i> </a>
+
+
                 </div>
-                <div class="col-md-7">
+                <div class="col-md-8 col-sm-6">
                     <img class="about-monitor" src="images/monitor.png" alt="">
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="services full-screen">
+    <section id="service" class="services">
         <div class="container">
             <h1 class="section-title text-center">our services</h1>
-            <p class="section-para">
+            <p class="para">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
             </p>
             <div class="row"></div>
             <div class="col-md-3">
                 <img class="center-block" src="images/s1-icon.png" alt="">
-                <p class="title-icon text-center">fully editable</p>
+                <p class="mache-title text-center text-uppercase">fully editable</p>
             </div>
             <div class="col-md-3">
                 <img class="center-block" src="images/s2-icon.png" alt="">
-                <p class="title-icon text-center">free download</p>
+                <p class="mache-title text-center text-uppercase">free download</p>
             </div>
             <div class="col-md-3">
                 <img class="center-block" src="images/s3-icon.png" alt="">
-                <p class="title-icon text-center">modern design</p>
+                <p class="mache-title text-center text-uppercase">modern design</p>
             </div>
             <div class="col-md-3">
                 <img class="center-block" src="images/s4-icon.png" alt="">
-                <p class="title-icon text-center">100% responsive</p>
+                <p class="mache-title text-center text-uppercase">100% responsive</p>
             </div>
         </div>
     </section>
 
-    <section class="prices">
+
+    <section class="qoute">
+
+        <div id="owl-example" class="owl-carousel">
+
+            <div class="qoute-box text-center">
+
+                <p class="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit, std do eiusmod tempor incididunt ut labore tet dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex. </p>
+            </div>
+            <div class="qoute-box text-center">
+
+                <p class="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit, std do eiusmod tempor incididunt ut labore tet dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex. </p>
+            </div>
+
+        </div>
+
+
+    </section>
+
+    <section id="price" class="prices">
         <div class="container">
             <h1 class="section-title text-center">Check Our Prices</h1>
             <p class="section-para">
@@ -144,69 +157,71 @@ available  for free!</h1>
                 <div class="col-md-3">
                     <div class="thumbnail">
                         <div class="thumbnail-header">
-                            <p><h1 class="price">19</h1></p>
+
+                            <h1 class="price">19</h1>
                             <p>per month</p>
                         </div>
-                        <button class="btn btn-default meche-button center-block pull-up">buy now</button>
-                            <ul class="price-list">
-                                <li>5 Projects</li>
-                                <li>200 MB Storage</li>
-                                <li>Notification settings</li>
-                                <li>Password protection</li>
-                            </ul>
-                       <button class="btn btn-default meche-button center-block">buy now</button>
+                        <button class="btn btn-default mache-button center-block text-uppercase pull-up">buy now</button>
+                        <ul class="price-list">
+                            <li>5 Projects</li>
+                            <li>200 MB Storage</li>
+                            <li>Notification settings</li>
+                            <li>Password protection</li>
+                        </ul>
+                        <button class="btn btn-default mache-button center-block text-uppercase">buy now</button>
 
                     </div>
                 </div>
-                                <div class="col-md-3">
+                <div class="col-md-3">
                     <div class="thumbnail">
                         <div class="thumbnail-header">
-                            <p><h1 class="price">39</h1></p>
+
+                            <h1 class="price">39</h1>
                             <p>per month</p>
                         </div>
-                        <button class="btn btn-default meche-button center-block pull-up">buy now</button>
-                            <ul class="price-list">
-                                <li>15 Projects</li>
-                                <li>1 GB Storage</li>
-                                <li> Notification settings</li>
-                                <li>Password protection</li>
-                            </ul>
-                       <button class="btn btn-default meche-button center-block">buy now</button>
+                        <button class="btn btn-default mache-button center-block text-uppercase pull-up">buy now</button>
+                        <ul class="price-list">
+                            <li>15 Projects</li>
+                            <li>1 GB Storage</li>
+                            <li> Notification settings</li>
+                            <li>Password protection</li>
+                        </ul>
+                         <button class="btn btn-default mache-button center-block text-uppercase">buy now</button>
 
                     </div>
                 </div>
-                                <div class="col-md-3">
+                <div class="col-md-3">
                     <div class="thumbnail">
                         <div class="thumbnail-header">
-                            <p><h1 class="price">59</h1></p>
+                            <h1 class="price">59</h1>
                             <p>per month</p>
                         </div>
-                        <button class="btn btn-default meche-button center-block pull-up">buy now</button>
-                            <ul class="price-list">
-                                <li>30 Projects</li>
-                                <li>2 GB Storage</li>
-                                <li>Notification settings</li>
-                                <li>Password protection</li>
-                            </ul>
-                       <button class="btn btn-default meche-button center-block">buy now</button>
+                        <button class="btn btn-default mache-button center-block text-uppercase pull-up">buy now</button>
+                        <ul class="price-list">
+                            <li>30 Projects</li>
+                            <li>2 GB Storage</li>
+                            <li>Notification settings</li>
+                            <li>Password protection</li>
+                        </ul>
+                        <button class="btn btn-default mache-button center-block text-uppercase">buy now</button>
 
                     </div>
                 </div>
-                                <div class="col-md-3">
+
+                <div class="col-md-3">
                     <div class="thumbnail">
                         <div class="thumbnail-header">
-                            <p><h1 class="price">99</h1></p>
+                            <h1 class="price">99</h1>
                             <p>per month</p>
                         </div>
-                        <button class="btn btn-default meche-button center-block pull-up">buy now</button>
-                            <ul class="price-list">
-                                <li>Unlimited Projects</li>
-                                <li>Unlimited Storage</li>
-                                <li>Notification settings</li>
-                                <li>Password protection</li>
-                            </ul>
-                       <button class="btn btn-default meche-button center-block">buy now</button>
-
+                        <button class="btn btn-default mache-button center-block text-uppercase pull-up">buy now</button>
+                        <ul class="price-list">
+                            <li>Unlimited Projects</li>
+                            <li>Unlimited Storage</li>
+                            <li>Notification settings</li>
+                            <li>Password protection</li>
+                        </ul>
+                        <button class="btn btn-default mache-button center-block text-uppercase">buy now</button>
                     </div>
                 </div>
             </div>
@@ -214,74 +229,346 @@ available  for free!</h1>
 
 
 
+
         </div>
     </section>
-    <div class="clear-fix"></div>
+
+
     <section class="products">
         <div class="container">
-            <div class="row no-gutters">    
-                <div class="col-md-4">
+            <div class="row no-gutters">
+                <div class="col-sm-4 col-xs-12">
                     <div class="product-icon pull-left">
                         <img class="pull-right" src="images/i1-icon.png" alt="">
                     </div>
                     <div class="product-description pull-right">
-                        <h5 class="theme-color">high resolution</h5>
-                        <p>Lorem ipsum dolor sit amet,  adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim </p>
+                        <h5 class="mache-title text-uppercase">high resolution</h5>
+                        <p>Lorem ipsum dolor sit amet, adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim </p>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-sm-4 col-xs-12">
                     <div class="product-icon pull-left">
                         <img class="pull-right" src="images/i2-icon.png" alt="">
                     </div>
                     <div class="product-description pull-right">
-                        <h5 class="theme-color">PHOTOGRAPHY</h5>
-                        <p>Lorem ipsum dolor sit amet,  adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim </p>
+                        <h5 class="mache-title text-uppercase">PHOTOGRAPHY</h5>
+                        <p>Lorem ipsum dolor sit amet, adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim </p>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-sm-4 col-xs-12">
                     <div class="product-icon pull-left">
                         <img class="pull-right" src="images/i3-icon.png" alt="">
                     </div>
                     <div class="product-description pull-right">
-                        <h5 class="theme-color">EASY TO CUSTOMIZE</h5>
-                        <p>Lorem ipsum dolor sit amet,  adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim </p>
+                        <h5 class="mache-title text-uppercase">EASY TO CUSTOMIZE</h5>
+                        <p>Lorem ipsum dolor sit amet, adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim </p>
                     </div>
                 </div>
             </div>
-            
-                        <div class="row no-gutters">    
-                <div class="col-md-4">
+
+            <div class="row no-gutters">
+                <div class="col-sm-4 col-xs-12">
                     <div class="product-icon pull-left">
                         <img class="pull-right" src="images/i4-icon.png" alt="">
                     </div>
                     <div class="product-description pull-right">
-                        <h5 class="theme-color">24/7 SUPPORT</h5>
-                        <p>Lorem ipsum dolor sit amet,  adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim </p>
+                        <h5 class="mache-title text-uppercase">24/7 SUPPORT</h5>
+                        <p>Lorem ipsum dolor sit amet, adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim </p>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-sm-4 col-xs-12">
                     <div class="product-icon pull-left">
                         <img class="pull-right" src="images/i5-icon.png" alt="">
                     </div>
                     <div class="product-description pull-right">
-                        <h5 class="theme-color">POWERFULL THEME</h5>
-                        <p>Lorem ipsum dolor sit amet,  adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim </p>
+                        <h5 class="mache-title text-uppercase">POWERFULL THEME</h5>
+                        <p>Lorem ipsum dolor sit amet, adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim </p>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-sm-4 col-xs-12">
                     <div class="product-icon pull-left">
                         <img class="pull-right" src="images/i6-icon.png" alt="">
                     </div>
                     <div class="product-description pull-right">
-                        <h5 class="theme-color">SEO OPTIMIZATION</h5>
-                        <p>Lorem ipsum dolor sit amet,  adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim </p>
+                        <h5 class="mache-title text-uppercase">SEO OPTIMIZATION</h5>
+                        <p>Lorem ipsum dolor sit amet, adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim </p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    
-    
+
+    <section class="join-us text-uppercase">
+
+        <h1 class="hidden-xs">Became A Part Of <span class="text-bold">Mache</span> Community Today</h1>
+        <button class="btn mache-button text-uppercase">join us</button>
+
+    </section>
+
+    <section class="news">
+        <div class="container">
+            <h1 class="section-title text-center">our latest updates</h1>
+            <p class="section-para">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+            </p>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="thumbnail">
+                        <div class="img-container">
+                            <a href="#"><i class="fa fa-search"></i></a>
+                            <img src="images/n1.png" alt="...">
+                            <div class="news-triangle"></div>
+                        </div>
+                        <div class="caption">
+
+                            <p class="mache-title text-uppercase">LOREM IPSUMa DOLOR SIT</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt ut labore et olore </p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="thumbnail">
+                        <div class="img-container">
+                            <a href="#"><i class="fa fa-search"></i></a>
+                            <img src="images/n2.png" alt="...">
+                            <div class="news-triangle"></div>
+                        </div>
+                        <div class="caption">
+
+                            <p class="mache-title text-uppercase">LOREM IPSUMa DOLOR SIT</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt ut labore et olore </p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="thumbnail">
+                        <div class="img-container">
+                            <a href="#"><i class="fa fa-search"></i></a>
+                            <img src="images/n3.png" alt="...">
+                            <div class="news-triangle"></div>
+                        </div>
+                        <div class="caption">
+
+                            <p class="mache-title text-uppercase">LOREM IPSUMa DOLOR SIT</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt ut labore et olore </p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="thumbnail">
+                        <div class="img-container">
+                            <a href="#"><i class="fa fa-search"></i></a>
+                            <img src="images/n4.png" alt="...">
+                            <div class="news-triangle"></div>
+                        </div>
+                        <div class="caption">
+
+                            <p class="mache-title text-uppercase">LOREM IPSUMa DOLOR SIT</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt ut labore et olore </p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="thumbnail">
+                        <div class="img-container">
+                            <a href="#"><i class="fa fa-search"></i></a>
+                            <img src="images/n5.png" alt="...">
+                            <div class="news-triangle"></div>
+                        </div>
+                        <div class="caption">
+
+                            <p class="mache-title text-uppercase">LOREM IPSUMa DOLOR SIT</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt ut labore et olore </p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="thumbnail">
+                        <div class="img-container">
+                            <a href="#"><i class="fa fa-search"></i></a>
+                            <img src="images/n6.png" alt="...">
+                            <div class="news-triangle"></div>
+                        </div>
+                        <div class="caption">
+
+                            <p class="mache-title text-uppercase">LOREM IPSUMa DOLOR SIT</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt ut labore et olore </p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 text-center text-uppercase ">
+                    <a class="theme-color" href="#"> show more <br><i class="fa fa-angle-down"></i></a>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+    <section class="free-psd">
+
+        <div class="container">
+            <h1 class="section-title text-center">Mache Free PSD Template</h1>
+            <p class="text-center para">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+            <button class="btn btn-default mache-button center-block">show more</button>
+        </div>
+
+
+    </section>
+    <section class="download">
+        <div class="container">
+            <div class="col-md-7">
+                <img class="safari-img" src="images/safari-browser.png" alt="">
+            </div>
+            <div class="col-md-5">
+                <h1 class="section-title text-left">Please share some love 
+by appreciate it and download! </h1>
+                <p class="section-para">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+                </p>
+                <button class="btn mache-button text-uppercase" data-toggle="modal" data-target="#myModal">download now</button>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <div class="container">
+            <div class="row no-gutters">
+                <div class="col-sm-6 col-xs-12 text-center"> <i class="fa fa-copyright"></i> 2015 copyright mache template</div>
+                <div class="col-sm-6 col-xs-12 text-center">
+                    designed by <img src="images/footer-logo.png" alt="">
+                </div>
+            </div>
+
+
+        </div>
+    </footer>
+
+
+
+
+
+
+    <!-- Modal -->
+    <div class="modal fade  " id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog full-screen" role="document">
+
+            <!--      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+      </div>-->
+
+            <div class="modal-body text-center">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <div class="mache-modal-circle">
+                    <img src="images/logo-modal.png" alt="">
+                </div>
+                <h1>Thanks for downloading our template!</h1>
+                <p>Hope that you enjoy it well! Check also our site</p>
+                <a class="mache-button" href="#">www.symu.co</a>
+
+                <!--         <div class="mache-modal-box text-center">
+              <div class="mache-modal-circle">
+                  <img src="images/logo-modal.png" alt="">
+              </div>
+              
+              <h1>Thanks for downloading our template!</h1>
+              <p>Hope that you enjoy it well! Check also our site</p>
+              <a class="theme-bg" href="#">www.symu.co</a>
+          </div>
+-->
+
+
+
+
+
+            </div>
+            <!--      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>-->
+        </div>
+
+    </div>
+
+
+
+
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#owl-example").owlCarousel({
+                items: 1,
+                itemsCustom: false,
+                itemsDesktop: [1199, 1],
+                itemsDesktopSmall: [980, 1],
+                itemsTablet: [768, 1],
+                itemsTabletSmall: false,
+                itemsMobile: [479, 1],
+                singleItem: false,
+                itemsScaleUp: false,
+                autoPlay: true,
+                stopOnHover: true,
+                pagination: false,
+            });
+
+        });
+
+
+        $(document).ready(function () {
+            // Add scrollspy to <body>
+            $('body').scrollspy({
+                target: ".navbar",
+                offset: 0
+            });
+
+            // Add smooth scrolling on all links inside the navbar
+            $("#bs-example-navbar-collapse-1 a").on('click', function (event) {
+                // Make sure this.hash has a value before overriding default behavior
+                if (this.hash !== "") {
+                    // Prevent default anchor click behavior
+                    event.preventDefault();
+
+                    // Store hash
+                    var hash = this.hash;
+
+                    // Using jQuery's animate() method to add smooth page scroll
+                    // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+                    $('html, body').animate({
+                        scrollTop: $(hash).offset().top
+                    }, 800, function () {
+
+                        // Add hash (#) to URL when done scrolling (default click behavior)
+                        window.location.hash = hash;
+                    });
+                } // End if
+            });
+        });
+        $(document).on('click', '.navbar-collapse.in', function (e) {
+            if ($(e.target).is('a') && $(e.target).attr('class') != 'dropdown-toggle') {
+                $(this).collapse('hide');
+            }
+        });
+
+        $(document).ready(function () {
+
+            $('#myModal').modal('show');
+
+        });
+    </script>
 
 </body>
 
